@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CSS & JS Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>🎨 Interactive Web Page</h1>
+
+    <!-- Part 1: CSS Transition Button -->
+    <section>
+        <h2>Button Hover Effect</h2>
+        <button class="hover-button">Hover Me!</button>
+    </section>
+
+    <!-- Part 2: JS Functions Example -->
+    <section>
+        <h2>Calculate Area</h2>
+        <input type="number" id="length" placeholder="Length">
+        <input type="number" id="width" placeholder="Width">
+        <button id="calcBtn">Calculate Area</button>
+        <p id="areaResult"></p>
+    </section>
+
+    <!-- Part 3: JS-Triggered Animation -->
+    <section>
+        <h2>Animate Box</h2>
+        <button id="animateBtn">Animate Box</button>
+        <div id="box" class="box"></div>
+    </section>
+
+    <!-- Part 3: Modal Example -->
+    <section>
+        <h2>Interactive Modal</h2>
+        <button id="openModal">Open Modal</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <p>This is a modal! 🎉</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
